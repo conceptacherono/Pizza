@@ -4,7 +4,6 @@
 ## Description
 This website of a pizza place where customers can buy their pizza and pay for them online and also get free delivery.
 ## Setup/Installation Requirements
-<<<<<<< HEAD
 * clone the following repo https://github.com/conceptacherono/Pizza.git
 * use your desired folder on your machine and clone
 the repo there
