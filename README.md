@@ -1,7 +1,6 @@
 # Pizza
 Pizza website where the customer may choose the type of pizza they want or topping and get it delivered to them
-# PIZZA
-#### Here is the landing page of Pizza.
+
 #### By **Concepta Cherono**
 ## Description
 This website of a pizza place where customers can buy their pizza and pay for them online and also get free delivery.
@@ -14,7 +13,7 @@ the repo there
 ## Known Bugs
  As per now there are no known bugs.If you experience any you can reach via email concepta.cherono@student.moringaschool.com
 ## Technologies Used
-I used CSS,HTML and JavaScript whereby HTML was used in coming up with the content while css was used in styling the content.JavaScript was used mostly for back-end.
+I used CSS,HTML and JavaScript whereby HTML was used in coming up with the content while css was used in styling
 ## Support and contact details
 Incase of any queries you can reach me through email concepta.cherono@student.moringaschool.com
 ### License
