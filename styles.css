@@ -9,7 +9,7 @@
 	 border: none;
 	 text-overflow: capitalize;
 	 transition: all 0.2s linear;
-	 
+	 color:goldenrod;
 }
  html {
 	 font-size: 62.5%;
@@ -135,7 +135,7 @@
 }
  .home {
 	 margin-top: 7rem;
-	 background: url(background1.jpg) no-repeat;
+	 background: url(background.jpg) no-repeat;
 	 background-size: cover;
 	 background-position: center;
 }
