@@ -19,11 +19,12 @@
         <div id="search-btn" class="fas fa-search icons"></div>
 
         <nav class="navbar">
-            <a href="">home</a>
-            <a href="">menu</a>
+            <a href="#home">home</a>
+            <a href="#menu">menu</a>
+            <a href="#order">order</a>
             <span class="space"></span>
-            <a href="">about</a>
-            <a href="">contact</a>
+            <a href="#about">about</a>
+            <a href="#contact">contact</a>
         </nav>
 
         <a href="#" class="fas fa-shopping-cart icons"></a>
@@ -38,7 +39,7 @@
 <section class="home" id="home">
 
     <div class="content">
-        <img data-aos="fade-up" data-aos-delay="150" src="pizza.baner.jpg" alt="">
+        <img data-aos="fade-up" data-aos-delay="150" src="images\pizza.baner.jpg" alt="">
         <h3 data-aos="fade-up" data-aos-delay="300">So meaty you will go crazy</h3>
         <p data-aos="fade-up"data-aos-delay="450" >Oven-fired godness.</p>
         <a data-aos="fade-up" data-aos-delay="600" href="#menu" class="btn">our menu</a>
@@ -75,7 +76,7 @@
 
     <div class="box-container">
         <div class="box" data-aos="fade-up"data-aos-delay="150">
-            <img src="pizza1.jpg" alt="pizza1">
+            <img src="images\pizza1.jpg" alt="pizza1">
             <div class="content">
                 <div class="stars">
                     <i class="fas fa-star"></i>
@@ -92,7 +93,7 @@
 
 
         <div class="box" data-aos="fade-up"data-aos-delay="300">
-            <img src="pizza2.jpg" alt="pizza2">
+            <img src="images\pizza2.jpg" alt="pizza2">
             <div class="content">
                 <div class="stars">
                     <i class="fas fa-star"></i>
@@ -108,7 +109,7 @@
         </div>
 
         <div class="box" data-aos="fade-up"data-aos-delay="450">
-            <img src="pizza3.webp" alt="pizza3">
+            <img src="images\pizza3.webp" alt="pizza3">
             <div class="content">
                 <div class="stars">
                     <i class="fas fa-star"></i>
@@ -124,7 +125,7 @@
         </div>
 
         <div class="box" data-aos="fade-up"data-aos-delay="600">
-            <img src="pizza4.webp" alt="pizza4">
+            <img src="images\pizza4.webp" alt="pizza4">
             <div class="content">
                 <div class="stars">
                     <i class="fas fa-star"></i>
@@ -140,7 +141,7 @@
         </div>
 
         <div class="box" data-aos="fade-up"data-aos-delay="750">
-            <img src="pizza5.jpg" alt="pizza5">
+            <img src="images\pizza5.jpg" alt="pizza5">
             <div class="content">
                 <div class="stars">
                     <i class="fas fa-star"></i>
@@ -156,7 +157,7 @@
         </div>
 
         <div class="box" data-aos="fade-up"data-aos-delay="900">
-            <img src="pizza6.webp" alt="pizza6">
+            <img src="images\pizza6.webp" alt="pizza6">
             <div class="content">
                 <div class="stars">
                     <i class="fas fa-star"></i>
@@ -172,7 +173,7 @@
         </div>
 
         <div class="box" data-aos="fade-up"data-aos-delay="750">
-            <img src="pizza7.jpg" alt="pizza7">
+            <img src="images\pizza7.jpg" alt="pizza7">
             <div class="content">
                 <div class="stars">
                     <i class="fas fa-star"></i>
@@ -188,7 +189,7 @@
         </div>
 
         <div class="box" data-aos="fade-up"data-aos-delay="750">
-            <img src="pizza8.jpg" alt="pizza8">
+            <img src="images\pizza8.jpg" alt="pizza8">
             <div class="content">
                 <div class="stars">
                     <i class="fas fa-star"></i>
@@ -206,6 +207,88 @@
     </div>
 
 </section>
+<section class="orders" id="order">
+    <h1 class="text-center" id="order-pizza">Order pizza</h1>
+    <div class="form-group-row">
+        <div class="col-sm-2"></div>
+        <div class="col-sm-8 order-overlay text-center">
+            <form class="col-sm-6 offset-sm-3 text-center"></form>
+            <label>What flavour are you having today</label>
+            <select class="custom-select custom-select-md mb-3 flavour" required>
+                <option value="Neapolitan pizza"> Neapolitan pizza</option>
+                <option value="Chicago pizza"> Chicago pizza</option>
+                <option value="NewYork style pizza"> NewYork style pizza</option>
+                <option value="Sicilian pizza"> Neapolitan pizza</option>
+                <option value="Carlifornia pizza"> Neapolitan pizza</option>
+                <option value="Greek pizza"> Greek pizza</option>
+                <option value="Detroit pizza">Detroit  pizza</option>
+                <option value="St. louis pizza"> St. louis pizza</option>
+
+
+            </select>
+            <label>Size?</label>
+            <select class="custom-select custom-select-md mb-3" id="size" required>
+                <option value="regular">Regular</option>
+                <option value="small">Small</option>
+                <option value="Large">Large</option>
+            </select>
+            <label for="crust">Choose</label>
+            <select class="custom-select custom select-md mb-3" id="crust" required>
+                <option value="starndard">Starndard crust @ 200</option>
+                <option value="thick">Thickcrust @ 300</option>
+                <option value="crunchy">crunchy crust @ 250</option>
+            </select>
+
+            <label>Toppings?</label>
+            <select class="custom-select custom-select-md mb-3" id="toppings" required>
+                <option value="chicken"> Chicken tikka @150 </option>
+                <option value="pineapple"> pineapple @160 </option>
+                <option value="bbq"> bbq @170 </option>
+                <option value="sweetcorn"> Sweet Corn @180 </option>
+                <option value="bell peppers"> Bell peppers @190 </option>
+                <option value="bacon"> bacon @165</option>
+                <option value="olives"> Olives @150 </option>
+         </select>
+            <label for="number"> Number of pizza</label>
+            <input type="submit" class="form-control" id="number" placeholder="Number of pizza" min="1" required>
+        </form>
+        <a   href="#summary">
+            <button type="submit" class="btn btn-success checkout" id="checkout">checkout</button>
+        </a>
+
+    </div>
+    <div class="order-summary" id="sun-order">
+        <h1 class="text-center" id="summary">Order Summary</h1>
+        <h2 class="text-center summary">Total</h2>
+        <ol id="list" class="text-center sum">
+        </ol>
+        <div class="cdata-overlay">
+            <div class="customerdata row">
+                <div class="col-sm-3"></div>
+                <form action="" class="form-group col-sm-6 data">
+                    <input type="text" class="form-control cdata" placeholder="Name">
+                    <input type="text" class="form-control cdata" placeholder="Number">
+                    <input type="text" class="form-control cdata" placeholder="Location">
+                    <button class="btn bg-info text-center d-block mx-auto go">Make delivery</button>
+                </form>
+
+                <div class="col-sm-3"></div>
+            
+            </div>
+
+        </div>
+        <div class="d-block mx-auto text-center">
+            <button class="deliver">Make Delivery</button>
+            <button class="delivernot">Pick Up</button>
+        </div>
+    </div>
+    </div>
+
+    <div class="heading">
+        <img src="" alt="">
+        <h2>order</h2>
+    </div>
+
 
 
 <section class="about">
