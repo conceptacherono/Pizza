@@ -28,7 +28,7 @@
 	 box-sizing: 5rem;
 }
  body {
-	 background: url(background3.jpg);
+	 background: url(background.jpg);
 	 background-attachment: fixed;
 	 background-position: center;
 	 overflow-x: hidden;
@@ -135,7 +135,7 @@
 }
  .home {
 	 margin-top: 7rem;
-	 background: url(background3.jpg) no-repeat;
+	 background: url(background.jpg) no-repeat;
 	 background-size: cover;
 	 background-position: center;
 }
